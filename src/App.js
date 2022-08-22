@@ -83,10 +83,10 @@ function App() {
             value={country}
             onChange={onCountryChange}
             >
-              <MenuItem value="worldwide"> Paises</MenuItem>
-              {countries.map((country) =>{
+              <MenuItem value="worldwide"> Mundo</MenuItem>
+              {countries.map((country) => (
                 <MenuItem value={country.value}>{country.name}</MenuItem>
-              })}
+              ))}
             </Select>
           </FormControl>
         </div>
